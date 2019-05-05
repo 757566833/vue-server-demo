@@ -8,4 +8,7 @@ export class User extends Model<User> {
 
   @Column
   public password: string;
+
+  @Column
+  public isAdmin: number;
 }

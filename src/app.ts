@@ -4,9 +4,7 @@ import * as jwtKoa from 'koa-jwt';
 import * as cors from 'koa2-cors';
 import router from './routes/route';
 import { Sequelize } from 'sequelize-typescript';
-// import { secret } from './config/token';
-// import router from './routes/route';
-// console.log(secret);
+import { secret } from './config/token';
 
 // tslint:disable-next-line:no-unused-expression
 new Sequelize({
@@ -55,12 +53,11 @@ app.use(cors({
 // app.use(views(path.resolve(__dirname, '..', 'views'), {
 //     extension: 'ejs',
 // }));
-// app.use(jwtKoa({
-//     secret,
-// }).unless({
-//     path: [/\/login/, /\/register/, /\/get\S{0,100}/],
-//     method: ['OPTIONS', 'GET'],
-// }));
-console.log('11');
+app.use(jwtKoa({
+    secret,
+}).unless({
+    path: [/\/login/, /\/register/, /\/get\S{0,100}/],
+    method: ['OPTIONS', 'GET'],
+}));
 app.use(router.routes()).use(router.allowedMethods());
-app.listen(10002);
+app.listen(4000);

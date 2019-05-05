@@ -1,0 +1,1 @@
+{"version":3,"file":"addList.js","sourceRoot":"","sources":["../../../src/controller/list/addList.ts"],"names":[],"mappings":";;AACA,4CAAyC;AACzC,MAAa,OAAO;IACT,MAAM,CAAC,KAAK,CAAC,OAAO,CAAC,IAAW;QACnC,MAAM,OAAO,GAAU,MAAM,WAAI,CAAC,MAAM,CAAQ,IAAI,CAAC,CAAC;QACtD,IAAI,OAAO,KAAK,IAAI,EAAE;YAClB,OAAO,IAAI,CAAC;SACf;aAAM;YACH,OAAO,OAAO,CAAC;SAClB;IACL,CAAC;CACJ;AATD,0BASC"}

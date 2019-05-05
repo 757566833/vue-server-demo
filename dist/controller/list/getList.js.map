@@ -1,0 +1,1 @@
+{"version":3,"file":"getList.js","sourceRoot":"","sources":["../../../src/controller/list/getList.ts"],"names":[],"mappings":";;AACA,4CAAyC;AACzC,MAAa,OAAO;IACT,MAAM,CAAC,KAAK,CAAC,OAAO;QACvB,MAAM,OAAO,GAAY,MAAM,WAAI,CAAC,OAAO,EAAE,CAAC;QAC9C,IAAI,OAAO,KAAK,IAAI,EAAE;YAClB,OAAO,IAAI,CAAC;SACf;aAAM;YACH,OAAO,OAAO,CAAC;SAClB;IACL,CAAC;CACJ;AATD,0BASC"}
